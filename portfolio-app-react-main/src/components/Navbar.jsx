@@ -125,7 +125,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://app.luminpdf.com/viewer/63e672f5afb2c635f18d330e"
+              href="https://app.luminpdf.com/viewer/63e7daa87765c4db6a4382de"
               target=" blank"
             >
               Resume <BsFillPersonLinesFill size={30} />
