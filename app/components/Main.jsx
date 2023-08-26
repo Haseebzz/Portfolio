@@ -12,12 +12,12 @@ const Main = () => {
         <div>
         
           <h1 className='py-4 text-gray-700'>
-            Hi, I&#39;m <span className='text-[#5651e5]'>Haseeb</span>
+            Hi, I&#39;m <span className='text-[#5651e5]'>{`Haseeb`}</span>
           </h1>
-          <h1 className='py-2 text-gray-700'>A Full stack Web Developer</h1>
+          <h1 className='py-2 text-gray-700'>{`A Full Stack Developer}</h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-          I specialize in creating responsive front-end web applications that incorporates back-end technologies. 
-          I'm driven by a strong curiosity and a desire to continually expand my knowledge within the field of web development
+                {`     I specialize in creating responsive front-end web applications that incorporates back-end technologies. 
+          I'm driven by a strong curiosity and a desire to continually expand my knowledge within the field of web development`}
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
