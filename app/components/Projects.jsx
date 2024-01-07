@@ -27,12 +27,14 @@ const Projects = () => {
             backgroundImg={Pino}
             projectUrl='https://github.com/Haseebzz/PinoPizza'
             tech='Next.js, MongoDB, Stripe, Amazon S3, Google Cloud'
+            live="https://pino-pizza.vercel.app/"
             target='_blank' 
           />
           <ProjectItem
             title='FoodShare'
             backgroundImg={FoodShare}
             projectUrl='https://github.com/Haseebzz/FoodShare'
+            live="https://web103-finalproject-t6zq.vercel.app/"
             tech='Reactjs tailwind nodejs express Postgresql'
 
           />
@@ -41,14 +43,15 @@ const Projects = () => {
             backgroundImg={Ebay}
             projectUrl='https://github.com/Haseebzz/Ecommerce'
             tech='Nextjs Tailwind PostgreSQL prisma supabase stripe'
+            live="https://github.com/Haseebzz/Ecommerce"
             target='_blank' 
-   
+               />
           <ProjectItem
             title='Netflix App'
             backgroundImg={netflixImg}
             projectUrl='https://github.com/Haseebzz/Netflix-Clone'
             tech='Reactjs tailwind firebase'
-
+            live="https://netflix-react-app-e1b74.web.app/"
           />
         </div>
       </div>
