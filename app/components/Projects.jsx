@@ -11,6 +11,8 @@ import ProjectItem from './ProjectItem';
 import Booking from './../../public/assets/projects/Booking.png'
 import Ebay from './../../public/assets/projects/Ebay.png'
 import Recipes from './../../public/assets/projects/Recipes.png'
+import Pino from './../../public/assets/projects/Pino.png'
+import FoodShare from './../../public/assets/projects/FoodShare.png'
 const Projects = () => {
   return (
     <div id='projects' className='w-full'>
