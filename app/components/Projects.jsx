@@ -22,32 +22,32 @@ const Projects = () => {
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
+            <ProjectItem
+            title='PinoPizza'
+            backgroundImg={Pino}
+            projectUrl='https://github.com/Haseebzz/PinoPizza'
+            tech='Next.js, MongoDB, Stripe, Amazon S3, Google Cloud'
+            target='_blank' 
+          />
+          <ProjectItem
+            title='FoodShare'
+            backgroundImg={FoodShare}
+            projectUrl='https://github.com/Haseebzz/FoodShare'
+            tech='Reactjs tailwind nodejs express Postgresql'
+
+          />
           <ProjectItem
             title='Ecommerce Store'
             backgroundImg={Ebay}
             projectUrl='https://github.com/Haseebzz/Ecommerce'
-            tech='Nextjs Tailwind postgresql prisma supabase stripe'
+            tech='Nextjs Tailwind PostgreSQL prisma supabase stripe'
             target='_blank' 
-          />
-          <ProjectItem
-            title='Recipes app'
-            backgroundImg={Recipes}
-            projectUrl='https://github.com/Haseebzz/Recipes-app'
-            tech='Reactjs tailwind nodejs express mongodb'
-
-          />
+   
           <ProjectItem
             title='Netflix App'
             backgroundImg={netflixImg}
             projectUrl='https://github.com/Haseebzz/Netflix-Clone'
             tech='Reactjs tailwind firebase'
-
-          />
-          <ProjectItem
-            title='Booking app'
-            backgroundImg={Booking}
-            projectUrl='https://github.com/deepankarck2/Booking-app'
-            tech='Reactjs tailwind nodejs express mongodb docker jira'
 
           />
         </div>
